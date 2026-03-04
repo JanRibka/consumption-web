@@ -2,8 +2,7 @@
   "hero": {
     "header": {
       "title_main": "Mějte své energie",
-      "title_highlight": "pod kontrolou",
-      "description": "Sledujte spotřebu, odhalujte úspory a předejděte nečekaným nedoplatkům. Moderní nástroj pro monitoring vaší domácnosti."
+      "title_highlight": "pod kontrolou"
     },
     "mission": {
       "text": "Získejte jasný přehled o své spotřebě energií a začněte řídit své náklady chytřeji. Aplikace vám umožní evidovat spotřebu elektřiny, plynu, vody a dalších médií, zobrazí ji v přehledných grafech a umožní porovnávat jednotlivé měsíce či roky. Okamžitě uvidíte trendy, sezónní výkyvy i neobvyklé změny. Díky tomu dokážete lépe plánovat výdaje, předcházet nepříjemným překvapením ve vyúčtování a postupně optimalizovat svou spotřebu."
@@ -12,6 +11,25 @@
       "startFree": "Začít zdarma",
       "moreInfo": "Více informací",
       "goToApp": "Přejít do aplikace"
+    },
+    "howItWorks": {
+      "subtitle": "Jednoduchý start",
+      "title": "Jak to funguje",
+      "description": "Získejte přehled o vaší spotřebě ve třech jednoduchých krocích. Od registrace po první analýzu úspor.",
+      "steps": {
+        "step1": {
+          "title": "Zaregistrujte se",
+          "description": "Vytvořte si účet a získejte přístup do aplikace."
+        },
+        "step2": {
+          "title": "Přidejte odběrná místa",
+          "description": "Zadejte svoje domy nebo prostory, kde chcete sledovat spotřebu."
+        },
+        "step3": {
+          "title": "Sledujte spotřebu",
+          "description": "Prohlížejte grafy a statistiky pro lepší kontrolu nákladů."
+        }
+      }
     }
   }
 }
