@@ -1,7 +1,8 @@
 {
   "logo": {
     "line1": "Energy",
-    "line2": "Consumption"
+    "line2": "Consumption",
+    "ariaLabel": "Energy Consumption - Home"
   },
   "header": {
     "cta": {

@@ -1,4 +1,4 @@
-import { Logo } from "@web/shared/components/Logo/Logo";
+import Logo from "@web/shared/components/Logo";
 
 import { ActionButtons } from "./components/ActionButtons";
 import { DesktopNav } from "./components/DesktopNav";
@@ -15,18 +15,22 @@ export const Header = () => {
   const styles = navbarVariants({ scrolled, mobileOpen });
 
   return (
-    <header className={styles.header()}>
-      <nav className={styles.container()}>
-        <Logo scrolled={scrolled} />
-        <DesktopNav />
-        <ActionButtons />
-        <MobileToggle
-          mobileOpen={mobileOpen}
-          toggleMobileMenu={toggleMobileMenu}
-          styles={styles.mobileToggle()}
-        />
-      </nav>
-      <MobileMenu styles={styles.mobileMenu()} />
+    <header>
+      <div className={styles.header()}>
+        <div className={styles.container()}>
+          <div className={styles.logoContainer()}>
+            <Logo scrolled={scrolled} />
+          </div>
+          <DesktopNav />
+          <ActionButtons />
+          <MobileToggle
+            mobileOpen={mobileOpen}
+            toggleMobileMenu={toggleMobileMenu}
+            styles={styles.mobileToggle()}
+          />
+        </div>
+        <MobileMenu styles={styles.mobileMenu()} />
+      </div>
     </header>
   );
 };

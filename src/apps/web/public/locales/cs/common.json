@@ -1,7 +1,8 @@
 {
   "logo": {
     "line1": "Spotřeba",
-    "line2": "Energií"
+    "line2": "Energií",
+    "ariaLabel": "Spotřeba Energií - Domů"
   },
   "header": {
     "cta": {
